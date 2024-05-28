@@ -1,0 +1,36 @@
+<!-- <div class="eduexpContainer">
+  <h1 class="title">Experience and Education</h1>
+  <div class="timelineContainer">
+    <mat-timeline>
+      <mat-timeline-entry *ngFor="let item of timelineItems">
+        <mat-timeline-entry-header>
+          <div class="bullet" [ngClass]="item.iconClass">
+            <mat-icon [svgIcon]="item.icon"></mat-icon>
+          </div>
+          <span>{{ item.title }}</span>
+        </mat-timeline-entry-header>
+        <div mat-timeline-content>
+          <p class="dimmed">{{ item.organization }}</p>
+          <p>{{ item.date }}</p>
+        </div>
+      </mat-timeline-entry>
+    </mat-timeline>
+  </div>
+</div> -->
+
+
+<div class="eandeContainer">
+  <h1 class="title">Experience and Education</h1>
+  <div class="timelineContainer">
+    <div *ngFor="let item of timelineItems" class="timelineItem">
+      <div class="timelineBullet">
+        <mat-icon>{{ item.icon }}</mat-icon>
+      </div>
+      <div class="timelineContent">
+        <h2>{{ item.title }}</h2>
+        <p class="dimmed">{{ item.organization }}</p>
+        <p>{{ item.date }}</p>
+      </div>
+    </div>
+  </div>
+</div>
