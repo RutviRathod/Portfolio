@@ -20,6 +20,9 @@ export class TechnologyComponent implements OnInit {
     { name: 'Azure', icon: 'assets/icons/azure.svg' },
     { name: 'Git', icon: 'assets/icons/icons8-git.svg' },
     { name: 'Postman', icon: 'assets/icons/icons8-postman-api.svg' },
+    { name: 'Docker', icon: 'assets/icons/icons8-docker.svg' },
+    { name: 'C#', icon: 'assets/icons/icons8-c-sharp-logo.svg' },
+    { name: '.Net', icon: 'assets/icons/icons8-.net-framework.svg' },
   ];
   constructor() { }
 

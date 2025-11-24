@@ -9,6 +9,12 @@ export class EduexpComponent implements OnInit {
 
   public timelineItems = [
     {
+      title: 'Computer Programmer',
+      organization: 'TDT Technologies',
+      date: 'Aug 2024 - Nov 2024',
+      icon: 'code'
+    },
+    {
       title: 'Software Developer',
       organization: 'VGD Technologies',
       date: 'Jan 2022 - June 2023',
