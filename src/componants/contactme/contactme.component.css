@@ -1,4 +1,4 @@
-/* .contactContainer {
+.contactContainer {
     margin-top: 100px;
   }
   .formContainer {
@@ -12,9 +12,9 @@
       font-size: 15px;
       line-height: 110px;
     }
-  } */
+  } 
   
-  .contactInfo{
+  /* .contactInfo{
     align-items: center;
     justify-content: center;
     font-size: 14px;
@@ -43,4 +43,4 @@
 
   .contactContainer {
     margin-top: 10px;
-  }
+  } */
